@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Converter Site 
+Copyright 2023 Rockie Inc. All Rights Reserved.  -->
+<html  lang="tr" dir="ltr" data-cast-api-enabled="true">
+<head>
+<title>Converter Site</title>
+<link rel="icon" href="./files/photos/converter_logo.png" type="image/gif" sizes="16x16">
+<meta charset="UTF-8">
+<meta name="author" content="Kaya Sertel">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=0, minimum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0, minimum-scale=1">-->
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="you can convert any type to any type photo file format for free">
+<meta name="keywords" content="converter, webp, webptojpg">
+<meta name="url" content="https://kayasrtl.github.io/convertersite/">
+<link rel="canonical" href="https://kayasrtl.github.io/convertersite/">
+<meta name="robots" content="index, follow">
+<meta property="og:image" content="https://kayasrtl.github.io/convertersite/files/photos/converter_logo.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="500">
+<meta property="og:image:height" content="500">
+<meta name="msapplication-TileImage" content="https://kayasrtl.github.io/convertersite/files/photos/converter_logo.jpg">
+<link rel="icon" href="./files/photos/converter_logo.png" type="image/gif" sizes="16x16">
+<noscript>
+<style>
+.main_noscript_div {
+	height:	300px;
+	width: 450px;
+	position: fixed;
+	z-index: 20;
+	top: 50%;
+	left: 50%;
+	margin-left: -227px;
+	margin-top: -152px;
+	background-color: grey;
+	color: white;
+	font-family: Atkinson Hyperlegible, sans-serif;
+	border-radius: 10px;
+	border: solid 4px white;
+}
+.noscript_text {
+	font-size: 25px;
+	text-align: center;
+	margin: 30px 40px;
+}
+.noscript_header {
+	text-align: center;
+	margin: 20px;
+}
+.noscript_button {
+	font-size: 20px;
+	position: fixed;
+	width: 150px;
+	height: 80px;
+	text-align: center;
+	margin-left: 50%;
+	left: -75px;
+	font-family: Atkinson Hyperlegible, sans-serif;
+	box-shadow: 4px 4px black;
+	cursor: pointer;
+	border: solid 2px black;
+}
+.noscript_button:hover {
+	box-shadow: 2px 2px black;
+	background-color: blue;
+	color: white;
+}
+.cover_page {
+	background-color: black;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 19;
+}
+ </style>
+<div class="main_noscript_div">
+<h1 class="noscript_header">JavaScript Error</h1>
+<h3 class="noscript_text">It looks like JavaScript closed or not supported in your browser</h3>
+<form target="_blank" action="http://www.tizag.com/javascriptT/javascript-enable.php"><button class="noscript_button">click for help!</button></form>
+</div>
+<div class="cover_page"></div>
+</noscript>
+<link href="https://fonts.googleapis.com/css?family=Atkinson Hyperlegible|Bebas Neue|Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+<script>
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-load-image/5.14.0/load-image.all.min.js"></script>
+<script src="./files/indexScript.js"></script>
+	<script src="https://unpkg.com/browser-image-compression@1.0.16/dist/browser-image-compression.js"></script>
+<link rel="stylesheet" href="./files/indexStyle.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2029445849259117"
+     crossorigin="anonymous"></script>
+
+</head>
+
+<body>  
+
+<div class="main_div">
+
+	  <div class="main_div">
+
+		<div class="top_div">
+			<button>button1</button>
+
+			<p class="top_text">you can convert any type to any type photo file format for free</p>
+			<button>button2</button>
+		</div>
+		
+		
+		<div class="main_part">
+			<div class="main_part_outer">
+				<div class="main_part_inner">
+					<form enctype="multipart/form-data">
+							<input type="file" id="myFile">
+						</form>
+					<div class="drag_drop_zone" id="drop_zone">Sürükle bırak alanı</div>
+					<!--<textarea class="form-control" rows=35 cols=120 id="xlx_json"></textarea>-->
+					 <input type="range" id="quality" min="0" max="100" value="92">
+    <label for="quality">Quality: <span id="qualityValue">92</span>%</label>
+					<select name="extensions" id="extensionselect">
+						<option value="jpg">.jpg</option>
+						<option value="png">.png</option>
+						<option value="webp">.webp</option>
+						<option value="jpeg">.jpeg</option>
+  					</select>
+					<button onclick="convertAndDownload()">Dosyayı Dönüştür ve İndir</button>
+					<h1 class="info_text">asd</h1>
+				</div>
+			</div>
+			
+		</div>
+	
+		<div class="copy_write">
+			<h3>Tüm hakları saklıdır.</h3>
+		</div>
+	</div>
+
+
+
+</div>
+</body>
+</html>
